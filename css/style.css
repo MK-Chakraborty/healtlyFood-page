@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    /* Regular 400, Bold 700, Black 900 */
+    font-family: 'Lato', sans-serif;
+}
+
+.fullContainer {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Commence of Header Section CSS */
+.navbar {
+    background: #c07d00;
+}
+
+.logo {
+    width: 200px;
+    margin: 0px 10px;
+    float: left;
+}
+
+.logo h2 {
+    font-size: 30px;
+    color: #000000;
+    line-height: 60px;
+}
+
+.logo h2 span {
+    color: #ffffff
+}
+
+.menu {
+    width: 930px;
+    margin: 0px 10px;
+    float: left;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    display: block;
+    padding-top: 14px;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 30px;
+    padding: 0px 20px;
+}
+
+.menu ul li:hover a {
+    color: #000;
+}
+/* Termination of Header Section CSS */
+
+
+/* Commence of Banner Section CSS */
+.bannerImg,
+.bannerDesp {
+    width: 565px;
+    float: left;
+    margin: 0px 10px;
+}
+
+.bannerDesp {
+    padding: 150px 0px;
+}
+
+.bannerDesp h1 {
+    color: #312f2f;
+    text-align: left;
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.bannerDesp h1 span {
+    color: #e49400;
+}
+
+.bannerDesp p {
+    padding-top: 25px;
+    padding-bottom: 35px;
+    color: #312f2f;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bannerDesp a {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 22px;
+    background-image: linear-gradient(rgb(230, 149, 1), rgb(228, 62, 62));
+}
+
+.bannerImg img {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 600px;
+}
+/* Termination of Banner Section CSS */
+
+
+/* Commence of About Section CSS */
+#about {
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.aboutOverlay {
+    background-color: rgba(255, 255, 255, 0.26);
+    width: 100%;
+    height: 550px;
+}
+
+.aboutDesp,
+.aboutImg {
+    width: 565px;
+    float: left;
+    margin: 0px 10px;
+}
+
+.aboutImg {
+    padding-top: 100px;
+}
+
+.aboutImg img {
+    width: 300px;
+    height: 500px;
+}
+
+.aboutDesp {
+    padding-top: 200px;
+}
+
+.aboutDesp h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #6b6b6b;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.aboutDesp p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #312f2f;
+    line-height: 24px;
+    padding-bottom: 100px;
+}
+
+.aboutDesp a {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(230, 149, 1), rgb(228, 62, 62));
+}
+/* Termination of About Section CSS */
+
+
+/* Commence of Recipies Section CSS */
+.py_80_100 {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.recipeDesp {
+    text-align: center;
+    padding: 0px 285px;
+    margin-bottom: 20px;
+}
+
+.recipeDesp h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #6b6b6b;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.items {
+    float: left;
+    width: 370px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.itemImg img {
+    margin: 20px;
+    width: 330px;
+    height: 200px;
+}
+
+.itemDesp {
+    text-align: left;
+}
+
+.itemDesp h3 {
+    padding: 20px;
+    color: #2e2d2d;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.itemDesp p {
+    padding: 0px 20px 20px 20px;
+    color: #2e2d2d;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Termination of Recipies Section CSS */
+
+
+/* Commence of Footer Section CSS */
+.footer {
+    background: #242020;
+}
+
+.footer h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.footer h1 span {
+    color: #ffa500;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 16px;
+    color: #8d8d8d;
+    padding-top: 50px;
+    line-height: 24px;
+}
+/* Termination of Footer Section CSS */
