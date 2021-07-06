@@ -253,6 +253,121 @@ body {
 /* Termination of Recipies Section CSS */
 
 
+/* Commence of  appointment section css*/
+.appointmentDesp {
+    text-align: center;
+    padding: 0px 285px;
+    margin-bottom: 20px;
+}
+
+.appointmentDesp h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #6b6b6b;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.appointmentText,
+.appointmentImg {
+    width: 565px;
+    float: left;
+    margin: 0px 10px;
+}
+
+.appointmentImg img {
+    width: 100%;
+    border: 5px solid #ffa500;
+    border-radius: 20px;
+}
+
+.appointmentText {
+    padding: 90px 0px;
+}
+
+.appointmentText p,
+.appointmentText h4,
+.appointmentText h3 {
+    text-align: left;
+    padding: 10px 150px;
+}
+
+.appointmentText h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #494949;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.appointmentText h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #494949;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.appointmentText p {
+    color: #494949;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Termination of  appointment section css*/
+
+
+/* Commence of contact section css */
+.contactSource,
+.contactDesp {
+    text-align: center;
+    padding: 0px 285px;
+    margin-bottom: 20px;
+}
+
+.contactDesp h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #6b6b6b;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.contactText {
+    padding: 90px 0px;
+}
+
+
+.contactText p,
+.contactText h4,
+.contactText h3 {
+    text-align: left;
+    padding: 10px 150px;
+}
+
+.contactText h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #494949;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.contactText h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #494949;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.contactText p {
+    color: #494949;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Termination of contact section css */
+
+
 /* Commence of Footer Section CSS */
 .footer {
     background: #242020;
@@ -278,3 +393,4 @@ body {
     line-height: 24px;
 }
 /* Termination of Footer Section CSS */
+
