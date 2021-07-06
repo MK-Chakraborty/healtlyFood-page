@@ -45,13 +45,13 @@ body {
     float: left;
 }
 
-.logo h2 i a{
+.logo h2 a{
     font-size: 30px;
     color: #000000;
     line-height: 60px;
 }
 
-.logo h2 i a span {
+.logo h2 a span {
     color: #ffffff
 }
 
