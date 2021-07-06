@@ -317,7 +317,6 @@ body {
 
 
 /* Commence of contact section css */
-.contactSource,
 .contactDesp {
     text-align: center;
     padding: 0px 285px;
@@ -332,10 +331,22 @@ body {
     text-transform: capitalize;
 }
 
+.contactImg,
 .contactText {
-    padding: 90px 0px;
+    width: 565px;
+    float: left;
+    margin: 0px 10px;
 }
 
+.contactImg img {
+    width: 100%;
+    border: 5px solid #ffa500;
+    border-radius: 20px;
+}
+
+.contactText {
+    padding: 29px 0px;
+}
 
 .contactText p,
 .contactText h4,
@@ -358,6 +369,13 @@ body {
     color: #494949;
     line-height: 26px;
     text-transform: capitalize;
+}
+
+.contactText h4 a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1d8d13;
+    line-height: 24px;
 }
 
 .contactText p {
